@@ -1,0 +1,414 @@
+.container {
+    width: 80%; 
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+}
+p{
+    margin: 0;
+    line-height: 1.5;
+}
+nav{
+    background-color: #0B9586;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+nav .image{
+    width: 90px;
+    height: 35px;
+    background-color: #0a8476;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #0b9586;
+}
+nav .option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .option p{
+    margin: 10px;
+    font-size: 14px;
+}
+nav .call{
+    text-align: end;
+}
+nav .call p:nth-child(2){
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+section .home {
+    background-image: url("./../image/imgh.png");
+    background-size: cover;
+    height: 92vh;
+}
+section .home h1{
+    margin: 0;
+}
+section .home .box{
+    position: absolute;
+    top: 50%;
+    width: 500px;
+    left: 100px;
+    color: white;
+    transform: translatey(-50px);
+}
+section .home .box p{
+    margin: 15px 0;
+}
+section .home .box h1{
+    font-size: 32px;
+}
+section button{
+    width: 150px;
+    color: white;
+    border: 0;
+    padding: 10px 0;
+    border-radius: 50px;
+}
+section .home .box button:nth-child(1){
+    background-color: #0B9586;
+}
+section .home .box button:nth-child(2){
+    background-color: #FFBB1C;
+    margin: 0 10px;
+    color: #475467;
+}
+section .about .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    gap: 50px;
+}
+section .about img{
+    width: 335px;
+    height: 419px;
+}
+section .about h1{
+    font-size: 32px;
+}
+section .about .box1 p{
+    color: #475467;
+    margin: 25px 0;
+}
+section .about .box1 span{
+    color: #84BD3A;
+}
+section .about .box2 { 
+    position: relative;
+}
+section .about .box2 img {
+    width: 300px;
+    height: 354px;
+    object-fit: cover;
+}
+section .about .box2 .text {
+    position: absolute;
+    bottom: 13px;
+    background-color: #FFBB1C;
+    width: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #475467;
+    z-index: 10;
+    right: 140px;
+}
+
+section .about .box2 .text i {
+    font-size: 50px;
+    margin: 0 0 30px;
+}
+
+section .about .box2 .text p {
+    font-size: 12px;
+    font-weight: bold;
+}
+section .notes1{
+    background-image: url("./../image/8116\ 1.png");
+    background-size: cover;
+    height: 505px;
+    position: relative;
+}
+section .notes1 .box{
+    width: 500px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+}
+section .notes1 .box h1{
+    font-size: 30px;
+}
+section .notes1 .box p{
+    margin: 20px 0;
+}
+section .notes1 .box button{
+    background-color: #FFBB1C;
+    color: #475467;
+}
+section .frame2{
+    padding: 75px 0;
+}
+section  .adress{
+    text-align: center;
+}
+section .adress h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+section .adress p{
+    margin: 30px 0;
+    color: #475467;
+}
+section .boxes{
+    display: grid; 
+    gap: 20px;
+}
+section .frame2 .bs1,
+section .frame4 .bs3{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+section .bs1 .box{
+    background-color: white; 
+    text-align: start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+section .boxes .box img{
+    width: 100%;
+    height: auto;
+}
+section .bs1 .box h1{
+    font-size: 20px; 
+}
+section .boxes .box p{
+    font-size: 12px; 
+    color: #475467; 
+    margin: 10px 0; 
+}
+section .boxes .box p:nth-child(3){
+    color: #3CAB90;
+}
+section .boxes .box p i{
+    margin-left: 5px; 
+}
+section .bs1 .details{
+    margin: 15px;
+}
+section .notes2{
+    background-image: url("./../image/8116\ 1\ \(1\).png");
+    background-size: cover;
+    height: 505px;
+    position: relative;
+}
+section .notes2 .box{
+    width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00000091;
+    padding: 25px 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+section .frame3{
+    background-color: #FFBB1C0D;
+}
+section .frame3 .handle,
+section .frame5 .handle{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 75px 0;
+}
+section .frame3 .text .icon{
+    background-color: #3cab9054;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+}
+section .frame3 .text .icon i{
+    background-color: #3CAB90;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
+section .frame3 .bs2{
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+section .bs2 .box,
+section .bs3 .box{
+    border: 2px solid#3CAB90;
+    border-radius: 10px;
+    padding: 15px;
+}
+section .bs2 .image{
+    width: 100%;
+    height: 60px;
+    background-color: #3CAB9026;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .bs2 .image i,
+section .bs3 i{
+    font-size: 35px;
+    color: #3cab9054;
+}
+section .bs3 .box{
+    background-color: #f4f4f4;
+}
+section .bs2 .box h1,
+section .bs3 .box h1{
+    font-size: 17px; 
+}
+section .frame4,
+section .frame5{
+    padding: 75px 0;
+    background-color: white;
+}
+section .frame5 .box{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+section .frame5 .box .latter p{
+    color: #3CAB90;
+}
+section .frame5 .box .Studying{
+    margin: 30px 0;
+}
+section .frame5 .box2,
+section .frame5 .box2 .details,
+section .frame5 .box2 .arrow{
+    display: flex;
+    align-items: center;
+}
+section .frame5 .box2{
+    justify-content: space-between;
+}
+section .frame5 .box2 .details{
+    justify-content: center;
+    margin: 15px;
+}
+section .frame5 .box2 .details .name{
+    margin: 0 15px;
+}
+section .frame5 .box2 .details .name h3{
+    margin: 0 ;
+}
+section .frame5 .box2 .details .name p{
+    font-size: 13px;
+    margin: 5px 0px 0;
+}
+section .frame5 .box2 .arrow i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 10px;
+    border: 1px solid;
+}
+section .frame5 .handle .text .icon{
+    font-size: 50px;
+    color: #3CAB90 ;
+}
+footer{
+    background-color:#283646;
+    color: white;
+    padding: 50px 0;
+}
+footer .box1,
+footer .box2,
+footer .box1 .option,
+footer .box2 .option,
+footer .box1 .button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .box1 .button{
+    color: #92989F;
+    border: 1px solid #92989F;
+    border-radius: 50px;
+}
+footer .box1 .button p:nth-child(1){
+    margin: 0 30px;
+}
+footer .box1 .button p:nth-child(2){
+    background-color: #FFBB1C;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+}
+footer .box2{
+    color: #92989F;
+}
+footer .option p{
+    margin: 20px 0;
+    margin-right: 15px;
+    font-size: 14px;
+}
+footer .box2 .option p{
+   border-right: 1px solid;
+   padding: 0 10px 0 0;
+}
+footer .image{
+    width: 125px;
+    height: 50px;
+    background-color: #bde1de;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #0e645a6e;
+    font-size: 30px;
+}
+@media (max-width: 768px) {
+    nav .option,
+    section .about .box2{
+        display: none;
+    }
+    section .home .box,
+    section .notes1 .box{
+        width: 325px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    section .frame3 .handle,
+    section .frame5 .handle,
+    section .frame5 .box2,
+    footer .box1,
+    footer .box2{
+        flex-direction: column;
+    }
+    section .notes2 .box {
+        width: 265px;
+    }
+    footer .box1 .search{
+        margin: 10px 0;
+    }
+    footer .box1 .button p:nth-child(1){
+        margin: 0 14px;
+    }
+}
